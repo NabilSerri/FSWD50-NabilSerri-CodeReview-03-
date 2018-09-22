@@ -8,12 +8,12 @@ describe("Austria", function(){
 
 });
 
-describe("Age", function(){
+describe("calculateInsurancePerCountry", function(){
 
        // what it should do
-       it("This function will return the value Age",function(){
+       it("This function will return the value of horse_power, age, country",function(){
                //expect something
-               expect(alculateInsurance("Age")).toEqual("Age");
+               expect(calculateInsurancePerCountry(200,5,"Austria")).toEqual(363);
        });
 
 });
