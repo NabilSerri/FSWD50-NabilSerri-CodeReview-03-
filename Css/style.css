@@ -40,12 +40,16 @@
   font-size: 28px;
   margin: 14px; }
 
+.nav-a:hover {
+  color: red; }
+
 .title {
   color: white;
   width: 80vw;
   text-align: left;
   margin-left: 50px;
-  font-size: 40px; }
+  font-size: 40px;
+  text-shadow: 4px 0px 20px black; }
 
 #main-content {
   background: url("../img/traffic-332857_1920.jpg") no-repeat;
@@ -65,11 +69,13 @@
 .txt-mid {
   text-align: center;
   font-size: 40px;
-  font-weight: bold; }
+  font-weight: bold;
+  text-shadow: 4px 0px 100px black; }
 
 .inpt {
   width: 100%;
-  margin: 30px 0px; }
+  margin: 30px 0px;
+  text-shadow: 4px 0px 100px black; }
 
 .inpt-txt {
   width: 80%;
@@ -99,7 +105,9 @@
   font-size: 30px;
   border-radius: 10px;
   background-color: #339235;
-  color: white; }
+  color: white;
+  transition: 1s;
+  text-shadow: 4px 0px 20px black; }
 
 .inpt-sub {
   width: 80%;
@@ -110,7 +118,8 @@
   text-align: center;
   color: #339235;
   font-size: 40px;
-  padding-top: 30px; }
+  padding-top: 30px;
+  text-shadow: 4px 0px 100px black; }
 
 .hero-bottom {
   background-color: gray;
